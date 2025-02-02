@@ -1,0 +1,1 @@
+first we will dockerize the application and we will push to github, i think thats best, tell me now, what i have to add in django project. we will go step by step. to doc

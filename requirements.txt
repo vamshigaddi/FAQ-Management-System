@@ -1,0 +1,11 @@
+django
+djangorestframework
+django-ckeditor
+googletrans==4.0.0-rc1
+pytest 
+pytest-django
+psycopg2-binary
+django-redis
+python-dotenv
+flake8
+pytest
