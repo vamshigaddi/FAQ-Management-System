@@ -3,18 +3,35 @@ A Django-based application to manage frequently asked questions (FAQs) with mult
 
 ### Table of Contents
 
-#### 1. Project Overview 
-#### 2. Installation 
-#### 3. Usage
-#### 4. API Endpoints
-#### 5. Testing
+#### 1. Project Overview
+#### 2. Features
+#### 3. TechStack
+#### 4. Installation 
+#### 5. Usage
+#### 6. API Endpoints
+#### 7. Testing
 
 ## Project Overview
 This project allows users to manage FAQs with support for multiple languages (Hindi, Bengali, etc.). FAQs can be retrieved via API, with fallback support for missing translations, and caching for performance.
+## Features
+- **Multilingual FAQ Management:** Store and retrieve FAQs in multiple languages with automated translations.
+- **WYSIWYG Editor Integration:** Format FAQ answers with django-ckeditor.
+- **REST API**: Efficiently manage FAQs with support for language-specific queries.
+- **Caching:** Boost performance with Redis-based caching for translations.
+- **Admin Interface:** User-friendly admin panel for managing FAQs.
+- **Unit Testing:** Comprehensive tests to ensure reliability.
+
+## Tech Stack
+- **Backend:** Django, Django Rest Framework
+- **Database:** PostgreSQL
+- **Cache:** Redis
+- **Translation:** googletrans Library
+- **Editor:** django-ckeditor
+
 ## Installation
 To get started with the project, follow the steps below:
-- Download Docker Desktop
-- Redis 
+- **Download Docker Desktop**
+- **Redis**
 ### 1. Clone the repository:
 ```
 git clone https://github.com/vamshigaddi/FAQ-Management-System.git
